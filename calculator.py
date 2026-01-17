@@ -1,4 +1,3 @@
-# Member 1 (Janelle): Create the add function and the loop then commit.
 
 def add(a, b):
     """Add two numbers"""
