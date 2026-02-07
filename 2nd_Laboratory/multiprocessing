@@ -42,4 +42,4 @@ end_time = time.perf_counter()
 
 gwa = sum(grades_list) / len(grades_list)
 print(f"\nGWA: {gwa:.2f}")
-print(f"Execution Time (Multithreading): {end_time - start_time:.6f} seconds")
+print(f"Execution Time (Multiprocessing): {end_time - start_time:.6f} seconds")
