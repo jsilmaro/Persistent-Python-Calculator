@@ -18,3 +18,5 @@ Provide concise but well-structured explanations.
 
 6. Provide a real-world payroll system example. Indicate where Task Parallelism and Data Parallelism would be applied, and which executor you would use.
 - In a real-world payroll system, ThreadPoolExecutor would handle concurrent I/O-bound tasks like database or API calls for one employee, while ProcessPoolExecutor would compute payroll for thousands of employees in parallel using Data Parallelism.
+
+commit
